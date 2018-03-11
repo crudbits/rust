@@ -1,0 +1,11 @@
+{
+  "editor.tabSize": 2,
+  "editor.fontSize": 14,
+  "editor.detectIndentation": false,
+  "rust.formatOnSave": false,
+  "rust.actionOnSave": "build",
+  "rust.checkArgs": [
+      "--verbose"
+  ],
+  "rust.runArgs": []
+}
