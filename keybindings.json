@@ -1,28 +1,48 @@
 // Place your key bindings in this file to overwrite the defaults
 [
-{ "key": "ctrl+d",          "command": "editor.action.deleteLines",
-                                     "when": "editorTextFocus && !editorReadonly" },
-{ "key": "shift+alt+down",              "command": "editor.action.moveLinesDownAction",
-                                     "when": "editorTextFocus && !editorReadonly" },
-{ "key": "shift+alt+up",              "command": "editor.action.moveLinesUpAction",
-  "when": "editorTextFocus && !editorReadonly" },
-{ "key": "ctrl+shift+c",                "command": "editor.action.commentLine",
-                                     "when": "editorTextFocus && !editorReadonly" },
-{ "key": "alt+shift+left",                "command": "editor.action.outdentLines",
-                                     "when": "editorTextFocus && !editorReadonly" },
-{ "key": "alt+shift+right",                "command": "editor.action.indentLines",
-                                     "when": "editorTextFocus && !editorReadonly" },
-{ "key": "alt+down",               "command": "editor.action.nextSelectionMatchFindAction",
-                                     "when": "editorFocus" },
-{ "key": "alt+up",         "command": "editor.action.previousSelectionMatchFindAction",
-                                     "when": "editorFocus" }
-
-// { "key": "alt+down",                "command": "editor.action.addSelectionToNextFindMatch",
-//                                      "when": "editorTextFocus" },
-
-// { "key": "",                "command": "",
-//                                      "when": "editorTextFocus && !editorReadonly" },
-                                     
-// - 
-
+  {
+    "key": "ctrl+d",
+    "command": "editor.action.deleteLines",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+alt+down",
+    "command": "editor.action.moveLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+alt+up",
+    "command": "editor.action.moveLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+shift+c",
+    "command": "editor.action.commentLine",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+shift+left",
+    "command": "editor.action.outdentLines",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+shift+right",
+    "command": "editor.action.indentLines",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+down",
+    "command": "editor.action.nextSelectionMatchFindAction",
+    "when": "editorFocus"
+  },
+  {
+    "key": "alt+up",
+    "command": "editor.action.previousSelectionMatchFindAction",
+    "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+shift+r",
+    "command": "workbench.action.tasks.runTask",
+    "when": "editorFocus"
+  }
 ]

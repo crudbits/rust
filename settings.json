@@ -1,0 +1,43 @@
+// Place your settings in this file to overwrite the default settings
+{
+    // Rusty Code configuration
+    // // Specifies path to Racer binary if it's not in PATH
+    // "rust.racerPath": null,
+    // // Specifies path to Rustfmt binary if it's not in PATH
+    // "rust.rustfmtPath": null,
+    // // Specifies path to Rustsym binary if it's not in PATH
+    // "rust.rustsymPath": null,
+    // // Specifies path to /src directory of local copy of Rust sources
+    // "rust.rustLangSrcPath": null,
+    // // Specifies path to Cargo binary if it's not in PATH
+    // "rust.cargoPath": null,
+    // // Specifies path to home directory of Cargo. Mostly needed for working with custom installations of Rust via rustup or multirust.
+    // "rust.cargoHomePath": null,
+    // "rust.actionOnSave": "build",
+    // "rust.checkArgs": [
+    //     "--verbose"
+    // ],
+    // "rust.runArgs": [],
+    "editor.fontFamily": "Consolas",
+    "editor.fontSize": 12,
+    "terminal.integrated.fontSize": 11,
+    "editor.rulers": [],
+    "editor.tabSize": 2,
+    "editor.roundedSelection": false,
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 160,
+    "editor.cursorBlinking": "blink",
+    "editor.renderIndentGuides": false,
+    "editor.renderLineHighlight": "line",
+    "editor.codeLens": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "workbench.editor.showTabs": true,
+    "explorer.openEditors.visible": 9,
+    "git.enabled": true,
+    "workbench.iconTheme": "vs-minimal",
+    "git.path": "//E:\\dev\\msys32\\usr\\bin\\git.exe",
+    "editor.suggestFontSize": 0,
+    "editor.formatOnSave": false,
+    "files.hotExit": "onExitAndWindowClose",
+    "rust.sysroot": null
+}
