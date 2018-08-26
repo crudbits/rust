@@ -44,5 +44,19 @@
     "key": "ctrl+shift+r",
     "command": "workbench.action.tasks.runTask",
     "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+alt+d",
+    "command": "editor.action.addSelectionToNextFindMatch",
+    "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+d",
+    "command": "-editor.action.addSelectionToNextFindMatch",
+    "when": "editorFocus"
+  },
+  {
+    "key": "alt+x",
+    "command": "workbench.action.quit"
   }
 ]

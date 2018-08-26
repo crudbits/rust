@@ -1,20 +1,23 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "rust.mode": "rls",
-    "rust.rls": {
-        "executable": "rls"
-    },
+    // rust rls
+    "rust.show_warnings": false,
+    // --rust rls
+    // "rust.mode": "rls",
+    // "rust.rls": {
+    //     "executable": "rls"
+    // },
     // "rust.racerPath": null,
     // "rust.rustfmtPath": null,
     // "rust.rustsymPath": null,
     // "rust.rustLangSrcPath": null,
     // "rust.cargoPath": null,
     // "rust.cargoHomePath": null,
-    "rust.actionOnSave": "check",
+    // "rust.actionOnSave": "check",
     // "rust.checkArgs": [
     //     "--verbose"
     // ],
-    "rust.runArgs": [],
+    // "rust.runArgs": [],
     "editor.fontFamily": "Consolas",
     "editor.fontSize": 12,
     "terminal.integrated.fontSize": 11,
@@ -29,16 +32,16 @@
     "editor.codeLens": false,
     "diffEditor.ignoreTrimWhitespace": false,
     "workbench.editor.showTabs": true,
-    "explorer.openEditors.visible": 9,
     "git.enabled": true,
-    "workbench.iconTheme": "vs-minimal",
     "git.path": "//E:\\dev\\msys32\\usr\\bin\\git.exe",
     "editor.suggestFontSize": 0,
     "editor.formatOnSave": false,
     "files.hotExit": "onExitAndWindowClose",
-    "rust.rustup": {
-        "toolchain": "stable-x86_64-pc-windows-msvc",
-        "nightlyToolchain": "nightly-x86_64-pc-windows-msvc"
-    },
-    "window.title": "${activeEditorLong} ${dirty}" 
+    // "rust.rustup": {
+    //     "toolchain": "stable-x86_64-pc-windows-msvc",
+    //     "nightlyToolchain": "nightly-x86_64-pc-windows-msvc"
+    // },
+    "window.title": "${activeEditorLong} ${dirty}",
+    "explorer.openEditors.visible": 0,
+    "workbench.startupEditor": "none"
 }
